@@ -16,7 +16,6 @@ const url="https://api.edyoda.com/v1/blog/post-detail/"
           });
       },[ ]);
 
-
             
 
 const {id,large_image,title,posted_on }=course
