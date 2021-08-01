@@ -1,7 +1,6 @@
 import React, {useEffect,useState} from 'react';
 import axios from 'axios';
 import './../../App.css'
-import { getFID } from 'web-vitals';
 
 const Course = (props) => {
 
