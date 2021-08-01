@@ -4,7 +4,7 @@ const Category = (props  ) => {
     const {id,title,slug,onSet}=props
     // console.log(props)
     const x=slug
-    const sendData=()=>{onSet(x)   }
+    const sendData=()=>{onSet(x) }
     return ( 
         <div onClick={sendData}>
          <div id={id} className="m-1 p-1 category-link">

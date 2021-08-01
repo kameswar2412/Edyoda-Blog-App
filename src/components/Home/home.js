@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, {  PureComponent } from 'react';
 import axios from 'axios';
 import Card from '../Cards/card';
 import Category from '../Category/category';
@@ -6,7 +6,7 @@ import Filter from '../Category/Filer/filer';
 
 
 
-class Home extends Component  {
+class Home extends PureComponent  {
     constructor(props) {
         super(props);
         this.state = { 
