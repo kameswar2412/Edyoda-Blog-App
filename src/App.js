@@ -11,11 +11,18 @@ const App = () => {
     <div>
       <BrowserRouter>
       <Header />
-
       <Switch>
-         <Route path="/" exact component={Home}/>
-         <Route path="/Course/:slug" component={Course} />
-         <Route component={()=> <h1>404 page not found</h1> } />
+         <Route path="/" exact component={Home} />
+
+         <Route path="/Course/:slug"  component={Course} />
+         
+         <Route component={()=> <div style={{width:"100%",height:"75vh",textAlign:"center"}}>
+            <h1 style={{position:"absolute",top:"250px",left:"450px",color:"skyblue",fontSize:"55px"}}>
+            404 Page Not Found
+
+            </h1>
+            <p>Go Back Home click On Edyoda Logo</p>
+            </div> } />
 
       </Switch>
       <Footer />

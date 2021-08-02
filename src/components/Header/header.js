@@ -3,14 +3,16 @@ import { Link } from 'react-router-dom';
 
 const Header = () => {
     return (
+       <div>
          <div className="top-bar">
            <nav>
-
            <div className="">
         <Link to="/" className="nav-link-lkj"  >
           <div className="logo-edyoda">EDYODA</div>
              <p className="logo-stories">Stories</p>
         </Link>
+           </div>
+           <div>
            </div>
 
            <div className="top-bar-2">
@@ -41,6 +43,10 @@ const Header = () => {
                </div>
            </nav>
        
+       </div>
+       <div>
+
+       </div>
        </div>
      );
 }

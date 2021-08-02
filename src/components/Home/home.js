@@ -1,4 +1,4 @@
-import React, {  PureComponent } from 'react';
+import React, {  Component } from 'react';
 import axios from 'axios';
 import Card from '../Cards/card';
 import Category from '../Category/category';
@@ -6,7 +6,7 @@ import Filter from '../Category/Filer/filer';
 
 
 
-class Home extends PureComponent  {
+class Home extends Component  {
     constructor(props) {
         super(props);
         this.state = { 
@@ -62,6 +62,8 @@ class Home extends PureComponent  {
     render() { 
         return ( 
           <div>
+
+            
           <div className="asdfkitjv">
                   <div >
                      <Filter />
